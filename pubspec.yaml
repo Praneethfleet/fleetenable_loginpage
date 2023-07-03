@@ -36,7 +36,10 @@ dependencies:
   country_code_picker:
   flutter_otp_text_field: ^1.1.1
   pin_code_fields: ^7.3.0
-#  sms_autofill: ^2.3.0
+  google_fonts: ^4.0.0
+  dio: ^5.2.1+1
+  sms_autofill: ^2.3.0
+  date_format: ^2.0.7
 #  timer_count_down: ^2.2.2
 #  otp_autofill: ^2.1.0
 #  otp_pin_field: ^1.2.0+2
@@ -77,6 +80,7 @@ flutter:
      - lib/images/fleet_truck.png
      - lib/images/logo.png
      - lib/images/splash_logo.png
+     - lib/images/banner.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
