@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
 class SlideToast extends StatefulWidget {
-  final Widget _toast;
-  double x;
-  double y;
+  final Widget _child;
+  final double x;
+  final double y;
 
 
-  SlideToast(this._toast,this.x,this.y);
+  SlideToast(this._child, {super.key, required this.x, required this.y});
 
   @override
   _SlideToastState createState() => _SlideToastState();
@@ -50,7 +50,8 @@ class _SlideToastState extends State<SlideToast> with TickerProviderStateMixin {
   Widget build(BuildContext context) {
     return SlideTransition(
       position: _offsetFloat,
-      child: widget._toast,
+      child: widget._child,
     );
   }
 }
+

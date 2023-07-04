@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'banner_image.dart';
+import 'login_page.dart';
 
 void main() {
   runApp(MyApp());
